@@ -8,11 +8,6 @@
         {
         }
 
-        public Dice(int sideNumber)
-        {
-            SideNumber = sideNumber;
-        }
-
         public void DiceRoll()
         {
             Random randomNumber = new Random();

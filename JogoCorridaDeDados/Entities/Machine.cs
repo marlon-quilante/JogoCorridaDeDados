@@ -6,17 +6,6 @@
         {
         }
 
-        public Machine(int position) : base(position)
-        {
-            Position = position;
-        }
-
-        public Machine(int position, bool turn) : base(position, turn)
-        {
-            Position = position;
-            Turn = turn;
-        }
-
         public void MachineAdvance()
         {
             Dice dice = new Dice();

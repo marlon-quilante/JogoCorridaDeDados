@@ -6,18 +6,6 @@
         {
         }
 
-        public Person(int position) : base(position)
-        {
-            Position = position;
-        }
-
-        public Person(int position, bool turn) : base(position, turn)
-        {
-            Position = position;
-            Turn = turn;
-        }
-
-
         public void PersonAdvance()
         {
             Dice dice = new Dice();

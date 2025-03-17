@@ -8,16 +8,5 @@
         public Player()
         {
         }
-
-        public Player(int position)
-        {
-            Position = position;
-        }
-
-        public Player(int position, bool turn)
-        {
-            Position = position;
-            Turn = turn;
-        }
     }
 }
